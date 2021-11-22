@@ -34,5 +34,17 @@ network:
   version: 2
 ```
 
-Sanal sunucuyu çalıştırdıktan sonra
+Sanal sunucuyu çalıştırdıktan sonra Sites altındaki magento klasörünü silin, 
+
+Ve aşağıdaki komutları uygulayınız;
+
+```
+# Create your project directory then go into it:
+mkdir ~/Sites/magento
+cd $_
+
+# Run this automated one-liner from the directory you want to install your project.
+curl -s https://raw.githubusercontent.com/markshust/docker-magento/master/lib/onelinesetup | bash -s -- magento.test 2.4.3-p1
+```
+
 
