@@ -18,25 +18,11 @@ Windows üzerinden erişim sağlanılacak ise,
 Windows Terminal uygulamasının indirilmesi önerilmektedir,
 
 
-NOT: Ova formatındaki sanal sunucuyu import ettikten sonra, network ayarlarının yapılması gerekmektedir,
-
-```
-sudo vim /etc/netplan/00-installer-config.yaml
-```
-
-Aşağıdaki gibi netplan dosyasını düzenleyiniz,
-
-```
-network:
-  ethernetes:
-    enp0s3:
-      dhcp4: true
-  version: 2
-```
-
 Sanal sunucuyu çalıştırdıktan sonra Sites altındaki magento klasörünü silin, 
 
 Ve aşağıdaki komutları uygulayınız;
+
+https://github.com/markshust/docker-magento
 
 ```
 # Create your project directory then go into it:
