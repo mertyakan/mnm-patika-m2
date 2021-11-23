@@ -2,7 +2,7 @@
 
 > Mac ve linux işletim sistemi kullanıcıları bu adımı atlayarak Magento Deploy adımına geçebilirler,
 
-Windows kullanıcıları için oluşturulan ubuntu server imajını indiriniz, testler virtualbox üzerinde gerçekleşmiştir, 
+Windows kullanıcıları için oluşturulan ubuntu server imajını indiriniz, testler virtualbox üzerinde gerçekleşmiştir, ubuntu imajı içerisindeki vm network tanımı (netpplan) enp0s3 olarak ayarlıdır, bağlantı problemi yaşanır ise bu ayar kontrol edilmelidir
 
 https://link.link
 
