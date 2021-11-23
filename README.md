@@ -4,7 +4,7 @@
 
 Windows kullanıcıları için oluşturulan ubuntu server imajını indiriniz, testler virtualbox üzerinde gerçekleşmiştir, ubuntu imajı içerisindeki vm network tanımı (netpplan) enp0s3 olarak ayarlıdır, bağlantı problemi yaşanır ise bu ayar kontrol edilmelidir
 
-https://link.link
+https://sendgb.com/hJcjLp07x19
 
 
 # Ubuntu server credential
