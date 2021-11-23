@@ -18,11 +18,8 @@ Windows üzerinden erişim sağlanılacak ise,
 Windows Terminal uygulamasının indirilmesi önerilmektedir,
 
 
-Sanal sunucuyu çalıştırdıktan sonra Sites altındaki magento klasörünü silin, 
 
-Ve aşağıdaki komutları uygulayınız;
-
-https://github.com/markshust/docker-magento
+> https://github.com/markshust/docker-magento
 
 ```
 # Create your project directory then go into it:
