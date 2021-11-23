@@ -1,6 +1,8 @@
-# MNM - PATIKA Magento2 - Ubuntu Server 
+### MNM - PATIKA Magento2 - Ubuntu Server 
 
-magento2 için oluşturulan ..... linki üzerinden ova formatında oluşturulan ubuntu server imajını indiriniz,
+> Mac ve linux işletim sistemi kullanıcıları bu adımı atlayarak Magento Deploy adımına geçebilirler,
+
+Windows kullanıcıları için oluşturulan ubuntu server imajını indiriniz, testler virtualbox üzerinde gerçekleşmiştir, 
 
 https://link.link
 
@@ -11,13 +13,10 @@ username: mnm
 
 password: 1123
 
-İmport işlemi için virtualbox üzerinde denenmiştir,
 
-Windows üzerinden erişim sağlanılacak ise, 
+> NOT: Windows Terminal, Php storm uygulamalarının indirilmesi önerilmektedir,
 
-Windows Terminal uygulamasının indirilmesi önerilmektedir,
-
-
+# Magento Deploy
 
 > https://github.com/markshust/docker-magento
 
