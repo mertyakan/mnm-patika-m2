@@ -7,6 +7,21 @@ Windows kullanıcıları için oluşturulan ubuntu server imajını indiriniz, t
 https://sendgb.com/hJcjLp07x19
 
 
+# Virtualbox import ova
+
+Virtualbox üzerinde Sanal cihazı içe aktar seçeneği ile indirdiğiniz ova imajını gösterin.
+
+İmport sonrası sanal makinanın ayarlar sekmesinde network seçeneğini NAT olarak değşitirin,
+
+Gelişmişe tıklayarak Bağlantı Noktası Yönlendirme seçeğine girin,
+
+![This is an image](https://i.ibb.co/bHMGkQ0/Screen-Shot-2021-11-24-at-15-43-10.png)
+
+Yukarıdaki gibi tanımlamaları gerçekleştirin,
+
+Sanal sunucuyu çalıştırın, sunucu 
+
+
 # Ubuntu server credential
 
 username: mnm
