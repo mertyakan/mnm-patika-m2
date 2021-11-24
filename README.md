@@ -46,4 +46,13 @@ cd ~/Sites/magento
 curl -s https://raw.githubusercontent.com/markshust/docker-magento/master/lib/onelinesetup | bash -s -- magento.test 2.4.3-p1
 ```
 
+# Magento Marketplace keys
 
+Public Key: 
+```
+36b3cb20fbda834458355fa5ce29513a
+```
+Private Key: 
+```
+bbf1f033dd371451ebfe64d8754663ac
+```
