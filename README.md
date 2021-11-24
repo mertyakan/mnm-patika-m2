@@ -61,6 +61,19 @@ Private Key:
 bbf1f033dd371451ebfe64d8754663ac
 ```
 
+# NOT: Kurulum esnasında yasanabilecek sorunlar için 
+```
+docker-compose down 
+```
+ve 
+```
+docker volume ls 
+docker volume rm magento_xxx
+```
+diyerek magento ile başlayan volume'leri silin.
+
+
+
 # Vscode ile magento dosyalarına ulaşmak için;
 
 https://code.visualstudio.com/docs/remote/ssh-tutorial
