@@ -29,7 +29,9 @@ username: mnm
 password: 1123
 
 
-> NOT: Windows Terminal, Php storm uygulamalarının indirilmesi önerilmektedir,
+> NOT: Sanal sunucuya ssh -p 3022 mnm@127.0.0.1 yazarak erişebilirsiniz, erişim problemi yaşıyorsanız sanal sunucunun networkünün NAT olarak seçili olduğundan emin olunuz, 
+> 
+> Vscode uygulamasının indirilmesi önerilmektedir,
 
 # Magento Deploy
 
@@ -37,11 +39,8 @@ password: 1123
 
 ```
 # Create your project directory then go into it:
-mkdir ~/Sites/magento
-cd $_
-
-
-https://meet.google.com/abv-qkde-jsj
+mkdir -p ~/Sites/magento
+cd ~/Sites/magento
 
 # Run this automated one-liner from the directory you want to install your project.
 curl -s https://raw.githubusercontent.com/markshust/docker-magento/master/lib/onelinesetup | bash -s -- magento.test 2.4.3-p1
