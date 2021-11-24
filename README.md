@@ -52,14 +52,12 @@ bin/magento setup:upgrade
 
 # Magento Marketplace keys
 
-Public Key: 
-```
-36b3cb20fbda834458355fa5ce29513a
-```
-Private Key: 
-```
-bbf1f033dd371451ebfe64d8754663ac
-```
+My profile/Access Key altındaki bilgileri kullanmalısınız
+
+
+https://marketplace.magento.com/
+
+
 
 # NOT: Kurulum esnasında yasanabilecek sorunlar için 
 ```
