@@ -44,6 +44,10 @@ cd ~/Sites/magento
 
 # Run this automated one-liner from the directory you want to install your project.
 curl -s https://raw.githubusercontent.com/markshust/docker-magento/master/lib/onelinesetup | bash -s -- magento.test 2.4.3-p1
+
+bin/magento sampledata:deploy
+bin/magento setup:upgrade
+
 ```
 
 # Magento Marketplace keys
@@ -56,3 +60,7 @@ Private Key:
 ```
 bbf1f033dd371451ebfe64d8754663ac
 ```
+
+# Vscode ile magento dosyalarına ulaşmak için;
+
+https://code.visualstudio.com/docs/remote/ssh-tutorial
